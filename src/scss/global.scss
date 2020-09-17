@@ -1,0 +1,67 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$background: #eff;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $background;
+}
+div {
+  text-align: center;
+}
+
+.Person {
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+}
+
+.btnClass{
+    background-color: paleturquoise;
+    border-radius:5px;
+    cursor:pointer;
+    &:hover{
+        background-color:slateblue;
+
+    }
+}
+.odd{
+    border:1px solid palegreen;
+}
+.even{
+    border:2px solid rgb(245,185,185);
+}
+
+@media (min-width: 500px) {
+    .Person{
+        width: 450px;
+    }
+}
+
+.Coffee{
+    text-align:center;
+    vertical-align:top;
+    padding: 1%;
+    margin:2% 2%;
+    display:inline-block;
+    width:230px;
+    height:auto;
+    border: 2px solid gray;
+    box-shadow: 2px 3px 5px gray;
+    border-radius: 20px;
+
+    h5{
+        margin-top:5px;
+    }
+
+    img{
+        max-width: 180px;
+        max-height: 250px;
+        border-radius: 10%;
+        box-shadow:2px 2px 5px gray;
+    }
+}

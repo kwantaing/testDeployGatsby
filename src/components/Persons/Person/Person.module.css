@@ -1,0 +1,30 @@
+.Person {
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+}
+
+.btnClass{
+    background-color: paleturquoise;
+    border-radius:5px;
+    cursor:pointer;
+}
+.btnClass:hover{
+    background-color:slateblue;
+}
+
+.odd{
+    border:1px solid palegreen;
+}
+.even{
+    border:2px solid rgb(245,185,185);
+}
+
+@media (min-width: 500px) {
+    .Person{
+        width: 450px;
+    }
+}
